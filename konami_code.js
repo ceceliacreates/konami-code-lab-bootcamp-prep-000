@@ -19,16 +19,14 @@ function init() {
       ++index;
       
       if (index === codes.length) {
-       debugger
+       
         window.alert("Congrats!");
         index = 0;
       }
       
-      }
-      else {
+      }else {
         index = 0;
       }
     
   })
 }
-init()
