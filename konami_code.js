@@ -19,7 +19,7 @@ function init() {
       ++index;
       
       if (index === codes.length) {
-        
+        debugger
         window.alert("Congrats!");
         index = 0;
       }
