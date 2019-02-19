@@ -23,10 +23,12 @@ function init() {
         window.alert("Congrats!");
         index = 0;
       }
+      
+      }
       else {
         index = 0;
       }
-    }
+    
   })
 }
 init()
