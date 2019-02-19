@@ -17,10 +17,10 @@ function init() {
     
     if (key === codes[index]) {
       index++;
-      debugger
+      
       if (index === codes.length) {
         window.alert("Congrats!");
-        
+        index = 0
       }
       else {
         index = 0;
