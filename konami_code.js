@@ -14,10 +14,10 @@ function init() {
   let index = 0;
   document.body.addEventListener("keydown", function checkKey(e){
     const key = e.key;
-    debugger
+    
     if (key === codes[index]) {
       index++;
-      
+      debugger
       if (index === codes.length) {
         window.alert("Congrats!");
         
