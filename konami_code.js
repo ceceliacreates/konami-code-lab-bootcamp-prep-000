@@ -16,10 +16,10 @@ function init() {
     const key = e.key;
     
     if (key === codes[index]) {
-      index++;
+      ++index;
       
       if (index === codes.length) {
-        debugger
+        
         window.alert("Congrats!");
         index = 0;
       }
